@@ -1,0 +1,34 @@
+<web-app>
+  <servlet>
+    <servlet-name>proj2</servlet-name>
+    <servlet-class>Project2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>proj2</servlet-name>
+    <url-pattern>/rrrr</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>ipur</servlet-name>
+    <servlet-class>Ipurchases</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ipur</servlet-name>
+    <url-pattern>/pur</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>iprod</servlet-name>
+    <servlet-class>Iproducts</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>iprod</servlet-name>
+    <url-pattern>/prod</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>rmsp</servlet-name>
+    <servlet-class>RMS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>rmsp</servlet-name>
+    <url-pattern>/rm</url-pattern>
+  </servlet-mapping>
+</web-app>
